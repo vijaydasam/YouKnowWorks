@@ -1,1 +1,227 @@
 
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .bg-container {
+        width: 664px;
+    }
+}
+
+.bg-container {
+    background-color: rgb(238, 155, 169);
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 2px rgb(167, 163, 163);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.adress-section {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 3px rgb(38, 38, 99);
+}
+
+.icons-symbols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.background {
+    background-color: rgb(38, 38, 99);
+    min-height: 35px;
+    min-width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 35px;
+    color: rgb(38, 38, 99);
+    margin-bottom: -15px;
+}
+
+.icons {
+    color: rgb(238, 155, 169);
+    font-size: 28px;
+}
+
+.circle-icon {
+    border: solid 3px rgb(38, 38, 99);
+    padding: 10px 12px 10px 12px;
+    border-radius: 100px;
+    margin-bottom: -20px;
+}
+
+.name-container {
+    width: 40%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.profile-name {
+    color: rgb(38, 38, 99);
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: -13px;
+    font-size: 25px;
+}
+
+.role {
+    color: rgb(38, 38, 99);
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.address-container {
+    width: 50%;
+    border-left: solid 3px rgb(38, 38, 99);
+    padding: 10px;
+}
+
+.address-container>p {
+    color: rgb(38, 38, 99);
+    font-family: "Roboto";
+    font-size: 10px;
+    width: 91%;
+}
+
+.work-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.year-ex-container {
+    width: 100%;
+    border-bottom: solid 3px rgb(38, 38, 99);
+    padding-bottom: 10px;
+}
+
+.year-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: -27px;
+    width: 90%;
+}
+
+.year {
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    width: 20%;
+    color: rgb(38, 38, 99);
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 11px;
+    margin-top: 10px;
+    color: rgb(38, 38, 99);
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.paragraph {
+    font-size: 10px;
+    font-family: "Roboto";
+    color: rgb(38, 38, 99);
+}
+
+.ex-container {
+    width: 80%;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-ex-container {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 3px rgb(38, 38, 99);
+}
+
+.skill-box {
+    width: 42%;
+    margin-top: 10px;
+}
+
+.ex-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-left: solid 3px rgb(38, 38, 99);
+    padding: 5px;
+}
+
+.point {
+    margin-left: 6px;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    max-height: 22px;
+}
+
+.skill-tag {
+    color: rgb(38, 38, 99);
+    font-family: "Roboto";
+    font-size: 10px;
+    width: 50%;
+}
+
+.skill-level {
+    display: flex;
+}
+
+.interest-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-row {
+    display: flex;
+    padding-top: 20px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 3px rgb(38, 38, 99);
+}
+
+.gap {
+    margin-left: 30px;
+    height: 80px;
+}
+
+.margin {
+    margin-top: 15px;
+}
+
+.education-container {
+    display: flex;
+    align-items: center;
+}
